@@ -16,10 +16,11 @@
 
 set -x -e
 
-# 1) Create a conda environment
-conda create -n papermill python=3.5
-# 2) Activate it
-conda activate papermill 
+echo "Running script now..."
+
+sleep 30
+
+echo "Running notebook done waiting..."
 
 
 function err() {
