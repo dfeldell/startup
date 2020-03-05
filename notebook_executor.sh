@@ -91,7 +91,7 @@ function run_notebook() {
     else
       # No parameters
       echo "Running notebook now..."
-      papermill "${INPUT_NOTEBOOK_PATH}" "${TMP_NOTEBOOK_PATH}" --log-output
+      /opt/conda/bin/papermill "${INPUT_NOTEBOOK_PATH}" "${TMP_NOTEBOOK_PATH}" --log-output
     fi    
   fi
   # Copy file to avoid GCS limitation: https://github.com/nteract/papermill/issues/312
