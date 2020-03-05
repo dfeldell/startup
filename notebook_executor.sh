@@ -22,6 +22,7 @@ sleep 30
 
 echo "Running notebook done waiting..."
 
+sleep 30
 
 function err() {
   echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
