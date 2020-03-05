@@ -18,11 +18,9 @@ set -x -e
 
 echo "Running script now..."
 
-sleep 60
 
 echo "Running notebook done waiting..."
 
-sleep 60
 
 function err() {
   echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
